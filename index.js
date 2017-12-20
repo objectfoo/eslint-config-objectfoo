@@ -5,11 +5,7 @@ module.exports = {
 	],
 	rules: {
 		'semi': [2, 'always'],
-		'indent': [
-			'error',
-			'tab',
-			{'SwitchCase': 1}
-		],
+		'indent': ['error', 'tab', {'SwitchCase': 1}],
 		'no-tabs': 0
 	}
 };
