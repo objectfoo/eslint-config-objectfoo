@@ -7,10 +7,8 @@ Swiched to create react app rules!
 ```javascript
 module.exports = {
 	extends: [
-		'react-app',
-		'plugin:jsx-a11y/recommended'
+		'react-app'
 	],
-	plugins: ['jsx-a11y'],
 	rules: {
 		semi: [2, 'always'],
 		indent: ['error', 'tab', {'SwitchCase': 1}],
