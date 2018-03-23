@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-objectfoo",
-  "version": "0.5.0",
-  "description": "my eslint config based on standardsjs",
+  "version": "1.0.0",
+  "description": "my eslint config based on create-react-app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,22 +10,24 @@
     "type": "git",
     "url": "https://github.com/objectfoo/eslint-config-objectfoo.git"
   },
-  "keywords": ["eslint", "config"],
+  "keywords": [
+    "eslint",
+    "config"
+  ],
   "author": "",
   "license": "ISC",
   "peerDependencies": {
     "eslint": ">=4"
   },
   "dependencies": {
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-config-standard-jsx": "^4.0.2",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-react": "^7.5.1",
-    "eslint-plugin-standard": "^3.0.1"
+    "babel-eslint": "^7.2.3",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.7.0"
   },
   "devDependencies": {
-    "eslint": "^4.13.1"
+    "eslint": "^4.19.1"
   }
 }
