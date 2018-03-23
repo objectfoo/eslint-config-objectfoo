@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-objectfoo",
-  "version": "0.5.0",
+  "version": "1.0.2",
   "description": "my eslint config based on standardsjs",
   "main": "index.js",
   "scripts": {
